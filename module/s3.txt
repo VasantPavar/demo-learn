@@ -1,0 +1,10 @@
+aws s3 cp /home/rnautiyal s3://personnelconcetps-configuration/database --recursive
+
+
+aws s3 sync s3://personnelconcetps-configuration/database /home/rnautiyal
+
+aws s3 cp /etc/nginx/conf.d/ s3://brady-asset-uploads-transposafe --recursive
+
+aws s3 sync s3://personnelconcetps-configuration/database /home/rnautiyal
+
+aws s3 cp  s3://personnelconcetps-configuration/nginx-config-file/personnelconcetps.conf  /etc/nginx/conf.d/ 
